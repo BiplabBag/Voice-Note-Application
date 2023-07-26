@@ -4,7 +4,7 @@ import pytesseract
 from PIL import Image
 
 # Set the path to the Tesseract executable (change this if necessary)
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'tesseract.exe'
 
 def ocr_image(image_path):
     """
